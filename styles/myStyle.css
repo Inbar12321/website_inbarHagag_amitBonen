@@ -1,0 +1,15 @@
+﻿body {
+    direction: rtl;
+}
+#navHader{
+    width:100%;
+    height:20px;
+    background-color:black;
+    opacity:70%
+}
+div label .navHader{
+    color:white;
+    text-align:center;
+    font-size:10px;
+}
+ 

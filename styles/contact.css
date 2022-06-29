@@ -1,0 +1,150 @@
+﻿body {
+    direction:rtl;
+    background-color:aliceblue;
+}
+h1{
+    margin:50px;
+    color:black;
+    font-size:50px;
+    font-family:Calibri;
+}
+
+pre {
+    margin: 50px;
+    color: black;
+    font-size: 20px;
+    font-family: Calibri;
+}
+/* עיצוב לתיבות הטקסט הבחירה וגוף ההודעה*/
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid black; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+/* עיצוב כפתור שליחת הטופס */
+input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:0 620px;
+}
+
+    /* שינוי צבע הכפתור שליחה במעבר עכבר */
+    input[type=submit]:hover {
+        background-color:cornflowerblue;
+    }
+
+/* צבע רקע לטופס------------------ */
+#container {
+    border-radius: 5px;
+     padding: 1px;
+}
+form {
+    margin: 0 50px;
+}
+
+/*-------------------------------גלריה------------------------------*/
+h2{
+    margin-top:80px;
+font-family:Calibri;
+text-align:center;
+}
+
+.container {
+    direction: unset;
+}
+
+/* הגדרת הרוחב והאורך של הגלריה */
+.container {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    padding: 0px 300px;
+}
+
+/* תצוגת הסימלון של העכבר למצב של אובייקט לחיץ */
+.cursor {
+    cursor: pointer;
+}
+
+/* חיצים ימינה ושמאלה */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* מיקום החץ הימני להחלפה בין התמונות  */
+.next {
+    right: 1056px;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* רקע שחור עבור החיצים במצב מעבר עכבר */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* מספר התמונה */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* תיאור התמונה */
+.caption-container {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    right: 950px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* שורת התמונות האופציונליות לגלריה */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* שקיפות עבור התמונות בשורת התמונות - במצב "לא בחור" */
+.demo {
+    opacity: 0.8;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+    /*------------------------------------------footer--------------------------------*/

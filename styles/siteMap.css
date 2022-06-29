@@ -1,0 +1,72 @@
+﻿body {
+    direction: rtl;
+    margin: 0 auto;
+}
+
+/*-------------------------------תפריט ניווט ראשי*/
+#headerNav1 ul {
+    list-style: none;
+    margin: 0;
+    width: 1280px;
+}
+
+nav li a {
+    display: inline-block;
+}
+nav{
+    display:inline-block
+}
+
+nav ul li a {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hirarchy {
+    background-color: aquamarine;
+    border: 1px solid black;
+    color: black;
+    margin: 10px;
+    display: inline-block;
+}
+#odot {
+    position: absolute;
+}
+#matconim {
+    position: absolute;
+    margin: 0 150px;
+}
+#sadnaot {
+    position: absolute;
+    margin: 0 350px;
+}
+#od {
+    position: absolute;
+    margin: 0 550px;
+}
+.level3{
+margin:10px 100px;
+background-color:cornflowerblue;
+}
+
+#level3 {
+background-color:cornflowerblue;
+width:100px;
+}
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+#notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+li{
+    color:aqua;
+}

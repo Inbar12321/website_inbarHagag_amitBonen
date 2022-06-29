@@ -1,0 +1,256 @@
+﻿body {
+    direction: rtl;
+    margin: 0 auto;
+}
+
+/*----------------------------תמונת רקע להאדר*/
+#imageHeader {
+    width: 100%;
+}
+/*----------------------------------------------לוגו*/
+div #logo {
+    position: absolute;
+    margin: 150px 700px 0px 200px;
+}
+
+#arrowImage {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    margin: 100px 0px 50px 0px;
+    left: 150px;
+    left: 255px;
+    filter: contrast(10%);
+}
+
+h1 {
+    color: wheat;
+    font-family: Calibri;
+    font-size: 60px;
+    margin: -80px 120px;
+    font-weight: lighter;
+}
+/*-------------------------------------------------מתכונים- עמוד הבית*/
+.recipes {
+    width: 100%;
+    height: 650px;
+    display: inline-block;
+}
+
+#recipeImages {
+    list-style: none;
+    position: absolute;
+    padding: 1368px 90px;
+    margin: 0;
+}
+
+.firstREC {
+    padding: 0px 3px;
+    display: inline-block;
+}
+
+.descriptionRecipe {
+    background-color: saddlebrown;
+    width: auto;
+    height: 220px;
+    top: 650px;
+    position: relative;
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Guttman Mantova';
+    font-size: 70px;
+    color: wheat;
+    position: absolute;
+    padding: 1490px 550px;
+}
+
+div ul li div h3 {
+    font-family: Calibri;
+    font-size: 40px;
+    color: white;
+    padding: 5px 10px;
+}
+
+div ul li div pre {
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+#lavan {
+    bottom: 70px;
+}
+
+#cosmin {
+    bottom: 90px;
+}
+/*------------------------------------------סדנה ראשונה - הסדנאות שלנו*/
+main div h2 {
+    font-family: 'Guttman Mantova';
+    font-size: 70px;
+    color: black;
+    padding: 10px 250px;
+}
+
+main #sadnaKerenAgem {
+    width: 40%;
+    height: 850px;
+    margin: 0px 911.5px 0 0;
+}
+
+main div h3 {
+    text-align: center;
+    font-size: 40px;
+    bottom: 720px;
+    position: relative;
+    left: 320px;
+}
+
+main div pre {
+    font-family: Calibri;
+    bottom: 720px;
+    position: relative;
+    font-size: 27px;
+    padding: 0px 200px;
+}
+
+#button11 {
+    background-color: black;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#button1 {
+    bottom: 730px;
+    margin: 0px 300px;
+    position: relative;
+}
+/*------------------------------------------סדנה שנייה - הסדנאות שלנו*/
+#sadnaMikiShemo {
+    width: 40%;
+    height: 850px;
+    margin: 0px 0px 911.5px 0;
+    bottom: 630px;
+    position: relative;
+}
+
+main div #mikiShemoh3 {
+    text-align: center;
+    font-size: 40px;
+    bottom: 2370px;
+    position: relative;
+    margin: 0 400px;
+    right: 250px;
+}
+
+main div #mikiSadnaDescription {
+    font-family: Calibri;
+    bottom: 2320px;
+    position: relative;
+    font-size: 27px;
+    margin: 0px 650px 0 0;
+}
+
+#button22 {
+    background-color: black;
+    border-radius: 24px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#button2 {
+    bottom: 2310px;
+    right: 270px;
+    margin: 0px 600px;
+    position: relative;
+}
+/*---------------------------------------קצת עלינו*/
+#kzatAlenuBackground {
+    transform: rotate(90deg);
+    width: 50%;
+    height: 100%;
+    right: 570px;
+    bottom: 2384px;
+    position: relative;
+}
+
+#kzatAlenuBackgroundColor {
+    width: 32%;
+    height: 760px;
+    background-color: saddlebrown;
+    opacity: 0.8;
+    bottom: 3337px;
+    position: relative;
+}
+
+main div div h3 {
+    font-family: 'Guttman Mantova';
+    font-size: 60px;
+    color: wheat;
+    position: absolute;
+    padding: 0px 20px;
+    top: 0px;
+    right: 140px;
+    text-align: center;
+}
+
+main div div pre {
+    color: wheat;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 75px;
+    margin: 0px 0px 0px 60px;
+}
+
+/*-----------------------------------------------------פוטר*/
+footer{
+margin:-3589px 0px;
+}
+
+#footerBackground {
+    width: 100%;
+}
+
+#logoForFooter {
+    width: 400px;
+    height: 250px;
+    margin: 350px 950px;
+    position: absolute;
+}
+
+#miniMapSite {
+    top: 300px;
+    width: 330px;
+    position: relative;
+    margin: 100px 600px;
+    padding: 10px 30px;
+    right: 350px;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.mapSiteLinks {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-family: Calibri;
+
+    margin: 10px;
+    font-size: 25px;
+}

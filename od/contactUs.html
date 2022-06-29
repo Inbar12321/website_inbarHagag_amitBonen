@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>שלום על לחם - מדריך לאפיית לחמים - עצוד צור קשר</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" sizes="12px" />
+
+
+    <meta name="description" content="עמוד צור קשר - שלום על לחם - מדריך לאפיית לחמים" />
+    <meta name="keywords" content="צור קשר, שלום על לחם, אפייה, סדנאות אפייה" />
+    <meta name="author" content="ענבר חג'ג' ועמית בונן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="../styles/jeneral.css" rel="stylesheet" />
+    <!--<link href="../styles/contact.css" rel="stylesheet" />-->
+    <link href="../styles/newContact.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="../jScripts/JavaScript.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav id="headerNav1" aria-labelledby="nav1">
+                <ul>
+                    <li>
+                        <a href="../about/about.html">אודות</a>
+                    </li>
+                    <li>
+                        <a>מתכונים</a>
+                        <ul>
+                            <li>
+                                <a href="../matconim/optionForRecipe.html">לחם מחמצת לבן</a>
+                            </li>
+                            <li><a class="notActive" href="#">לחם ללא גלוטן</a></li>
+                            <li><a class="notActive" href="#">לחם ללא סוכר</a></li>
+                            <li><a class="notActive" href="#">לחם שאור</a></li>
+                            <li><a class="notActive" href="#">לחם דגנים</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>סדנאות</a>
+                        <ul>
+                            <li><a class="notActive" href="#">לחם מחמצת</a></li>
+                            <li><a class="notActive" href="#">לחם שאור</a></li>
+                            <li><a class="notActive" href="#">לחם ללא גלוטן</a></li>
+                            <li><a class="notActive" href="#">לחם ללא סוכר</a></li>
+                            <li><a class="notActive" href="#">לחם דגנים</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>עוד</a>
+                        <ul>
+                            <li><a class="notActive" href="#">המרת מידות</a></li>
+                            <li><a class="notActive" href="#">הצעות שלכם למתכונים</a></li>
+                            <li><a class="notActive" href="#">מילון מושגים</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </header>
+        <main>
+            <!-----------------------------------------פירורי לחם-->
+            <br /><br /><br />
+            <div>
+                <ul class="breadCrumb">
+                    <li>
+                        <a href="../homePage/index.html">עמוד הבית</a>
+                    </li>
+                    <li>עוד</li>
+                    <li>צור קשר</li>
+                </ul>
+            </div>
+            <br />
+            <!-------------------------------------תכולת הטופס------>
+            <h1>צור קשר</h1>
+            <pre>יצא מתכון מנצח? יש לכם שאלה?
+סתם רוצים לדבר על פחמימות?
+
+כתבו לנו!
+
+מלאו את הפרטים שלכם
+ואנו נחזור אליכם בהקדם
+</pre>
+            <form>
+                <label for="fullName">שם מלא</label>
+                <input type="text" id="fullName" name="fullName" placeholder="שם מלא" required onload="chackFunc()"><br />
+
+                <label for="email">דואר אלקטרוני</label>
+                <input type="text" placeholder="דואר אלקטרוני" name="email" id="email" required><br />
+
+                <label for="city">עיר מגורים</label>
+                <select id="city" name="city">
+                    <option value="australia">רחובות</option>
+                    <option value="canada">תל אביב</option>
+                    <option value="usa">חולון</option>
+                    <option value="usa">ירושלים</option>
+                </select><br />
+
+                <label for="subject">גוף ההודעה </label>
+                <textarea id="subject" name="subject" placeholder="גוף ההודעה" style="height:200px" required></textarea><br />
+
+                <p>מין:</p>
+                <input type="radio" id="male" name="sex" value="גבר" checked>
+                <label for="html">גבר</label><br>
+                <input type="radio" id="feamle" name="sex" value="אישה">
+                <label for="css">אישה</label><br>
+                <input type="radio" id="other" name="sex" value="אחר">
+                <label for="javascript">אחר</label><br /><br />
+
+                <input type="submit" value="Submit">
+
+            </form>
+            <div>
+                <h2>מוזמנים להתרשם מתמונות היישר מהמאפייה שלנו</h2>
+                <!-- הקוד מתחיל כאן -->
+                <div class="container">
+
+                    <!-- מספור כל תמונה, והתמונה המרכזית שמוצגת ברוחב מוגדר -->
+                    <!-- התמונה הראשונה שמוצגת -->
+                    <div class="mySlides">
+                        <div class="numbertext"> 1 / 6</div>
+                        <img src="galleryJSCours/angelo-pantazis-2-U0A2tNYhM-unsplash.jpg" style="width: 100%;" alt="" />
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="galleryJSCours/ddp-gCa9RylXBO0-unsplash (1).jpg" style="width: 100%;" alt="" />
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="galleryJSCours/Image 22.png" style="width: 100%;" alt="" />
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="galleryJSCours/pexels-bruno-thethe-1755785.jpg" style="width: 100%;" alt="" />
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="galleryJSCours/pexels-hermaion-137103.jpg" style="width: 100%;" alt="" />
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="galleryJSCours/pexels-mariana-kurnyk-1756061.jpg" style="width: 100%;" alt="" />
+                    </div>
+
+
+                    <!-- כפתורי החיצים ימינה ושמאלה -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    <!-- טקסט המתאר את התמונה -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+
+                    <!-- התמונות שמופיעות מתחת לתמונה הראשית -->
+                    <div class="row" style=" display: flex;">
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/angelo-pantazis-2-U0A2tNYhM-unsplash.jpg" class="demo cursor" style="width:100%" onload="currentSlide(1)" onclick="currentSlide(1)" alt="מגוון המאפים שלנו" />
+                        </div>
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/ddp-gCa9RylXBO0-unsplash (1).jpg" class="demo cursor" style="width:100%" onclick="currentSlide(2)" alt="לחם המחמצת לפני הכניסה לתנור" />
+                        </div>
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/Image 22.png" class="demo cursor" style="width:100%" onclick="currentSlide(3)" alt="לחם המחמצת בשלב התפיחה" />
+                        </div>
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/pexels-bruno-thethe-1755785.jpg" class="demo cursor" style="width:100%" onclick="currentSlide(4)" alt="מחמצת אגוזים" />
+                        </div>
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/pexels-hermaion-137103.jpg" class="demo cursor" style="width:100%" onclick="currentSlide(5)" alt="מחמצת שיפון" />
+                        </div>
+                        <div class="column" style=" display: flex;">
+                            <img src="galleryJSCours/pexels-mariana-kurnyk-1756061.jpg" class="demo cursor" style="width:100%" onclick="currentSlide(6)" alt="מחמצת שומשום" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <a href="../homePage/index.html">
+
+                    <img id="logoForFooter" src="1-loogo-removebg-preview.png" alt="קישור לעמוד הבית - שלום על לחם -מדריך לאפיית לחמים" />
+                </a>
+            </div>
+            <div id="miniMapSite">
+                <a class="mapSiteLinks"  href="../about/about.html">אודות</a>
+                <a id="notActive" class="mapSiteLinks" href="matconim.html">   מתכונים   </a>
+                <a id="notActive" class="mapSiteLinks" href="sadnaot.html">   סדנאות   </a>
+                <a id="notActive" class="mapSiteLinks" href="od.html">   עוד   </a>
+            </div>
+            <div id="greyFilter">
+                <img id="footerBackground" src="top-view-bread-concep-with-copy-space.jpg" alt=""/>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

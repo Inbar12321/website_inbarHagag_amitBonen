@@ -1,0 +1,114 @@
+﻿body {
+    direction:rtl;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------האדר*/
+/*תמונת ההאדר*/
+#odotHeader {
+    width: 100%;
+}
+
+/*מיקום ועיצוב הלוגו*/
+#logo {
+    width: 800px;
+    height: 650px;
+    position: absolute;
+    padding: 0 350px;
+}
+/*
+עיצוב כותרת אודות*/
+h1 {
+    color: white;
+    text-align: center;
+    padding: 450px 630px;
+    position: absolute;
+    font-size: 100px;
+}
+
+ /*עיצוב הרשימה של פירורי הלחם */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+/*סידור הרשימה של פירורי הלחם*/  
+    ul.breadCrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* סלאש בין הקישורים בפירורי הלחם */
+        ul.breadCrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+h2 {
+    font-size: 40px;
+    color: midnightblue;
+    padding: 0 80px;
+}
+
+pre{
+    padding: 0 80px;
+    font-family:Calibri;
+    font-size: 30px;
+    color:midnightblue;
+}
+
+#facultyLink {
+    font-size: 30px;
+    color: #388086;
+left:350px;
+padding:0 560px;
+}
+#hitLogo {
+width:350px;
+height:350px;
+padding:0 550px;
+}
+/*---------------------------------פוטר*/
+
+#footerBackground {
+    width: 100%;
+}
+
+#logoForFooter {
+    width: 400px;
+    height: 250px;
+    padding: 0px 0px;
+    position:absolute;
+
+}
+#miniMapSite {
+    top: 300px;
+    width: 330px;
+    position: relative;
+    margin: 100px 600px;
+    padding: 10px 30px;
+    right: 350px;
+    background-color: black;
+    opacity: 0.5;
+}
+.mapSiteLinks {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-family: Calibri;
+
+    margin: 10px;
+    font-size: 25px;
+}
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+#notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+

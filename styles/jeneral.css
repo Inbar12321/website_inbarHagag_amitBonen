@@ -1,0 +1,116 @@
+﻿nav {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    font-family: Calibri;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    z-index: 99;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    nav ul li {
+        position: relative;
+        width: 140px;
+        height: 50px;
+    }
+
+        nav ul li a {
+            display: inline-block;
+            float: right;
+            display: block;
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 50px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+            nav ul li a:hover {
+                background-color: aqua;
+            }
+
+#headerNav1 ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+#headerNav1 ul li:hover ul {
+    display: block;
+    float: none;
+    z-index: 100;
+}
+/*-----------------------פירורי לחם------------------------*/
+/*עיצוב הרשימה של פירורי הלחם */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+    /*סידור הרשימה של פירורי הלחם*/
+    ul.breadCrumb li {
+        display: inline;
+        font-size: 18px;
+    }
+
+        /* סלאש בין הקישורים בפירורי הלחם */
+        ul.breadCrumb li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+        }
+/*-----------------------------footer-------------------------*/
+#footerBackground {
+    width: 100%;
+}
+
+#logoForFooter {
+    width: 400px;
+    height: 250px;
+    margin: 350px 950px;
+    position: absolute;
+}
+
+#miniMapSite {
+    top: 300px;
+    width: 330px;
+    position: relative;
+    margin: 100px 600px;
+    padding: 10px 30px;
+    right: 350px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.mapSiteLinks {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-family: Calibri;
+    margin: 10px;
+    font-size: 25px;
+}
+/*----------------------קישורים לא פעילים-------------*/
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+#notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}

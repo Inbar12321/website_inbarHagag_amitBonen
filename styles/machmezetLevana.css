@@ -1,0 +1,78 @@
+﻿body {
+    direction: rtl;
+    margin: 0 auto;
+}
+/*תמונת ההאדר*/
+#matconHeader {
+    width: 100%;
+}
+/*מיקום ועיצוב הלוגו*/
+#logo {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin: 0 200px;
+}
+/*
+עיצוב כותרת אודות*/
+h1 {
+    width:490px;
+    color: white;
+    text-align: center;
+    margin: 530px 500px;
+    position: absolute;
+    font-size: 60px;
+}
+/*--------------------------------------------------המתכון*/
+
+pre {
+    font-size: 20px;
+    color: black;
+    font-family: Calibri;
+    position:absolute;
+    margin-inline-end:auto;
+    margin:50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    font-family: Calibri;
+}
+
+#mitzrahim, #mahmetzet, #lehem1, #lehem2, #afia, #end {
+    width: 40%;
+    margin-right: 800px;
+}
+
+/*---------------------------------פוטר*/
+#footerBackground {
+    width: 100%;
+}
+
+#logoForFooter {
+    width: 400px;
+    height: 250px;
+    margin: 350px 950px;
+    position: absolute;
+}
+
+#miniMapSite {
+    top: 300px;
+    width: 330px;
+    position: relative;
+    margin: 100px 600px;
+    padding: 10px 30px;
+    right: 350px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.mapSiteLinks {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-family: Calibri;
+    margin: 10px;
+    font-size: 25px;
+}
